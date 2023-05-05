@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+.list{
+    visibility: hidden;
+}
+
+.social li a:hover{
+    color: aqua;
+    text-size-adjust:var(3rem);
+}
+
+@media (min-width:640px) and (max-width:1024px){
+    .pic-size{
+        font-size: 100%;
+    }
+}
+
+@media (max-width:768px){
+    .nav-right button{
+        border-radius: 50%;
+        height: 50px;
+        width: 50px;
+    }
+    .add{
+        height: 100px;
+        width: 1/2;
+    }
+    .add ul{
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 3rem;
+        visibility: visible;
+        padding: 20px;
+    }
+
+    .add ul li a:hover{
+        color:  rgb(210, 97, 5);
+    }
+
+    .paragraph{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 50px;
+    }
+    .paragraph p, .paragraph h1{
+        text-align: center;
+    }
+
+    .bio{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 50px;
+    }
+    footer{
+        padding: 30px;   
+    }
+    .skill-set{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.code, .skill{
+    height: 300px;
+    width: 50%;
+}
+.pic-size{
+    font-size: 200%;
+}
+.code i{
+    font-size: 400%;
+}
+
+
+
+
+
+

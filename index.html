@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+<body class="bg-black text-white">
+    <section id="navbar" class="justify-between mt-10 h-[4rem] items-center font-[Ubuntu] font-bold w-[90%] mx-auto md:flex">
+        <div class="flex justify-between">
+            <div class="nav-left">
+                <h1 class="md:pt-10 text-[2rem] text-[#f97316] break-keep font-[Poppins]">MY PORTFOLIO</h1>
+            </div>
+            <div class="nav-right mx-10 md:hidden">
+                <button class="open btn bg-[#f97316] hover:bg-[#fff] text-black md:hidden">
+                    <i class="fa-solid fa-bars"></i>
+                </button>          
+            </div>
+        </div>
+        <div class="list pt-10 borded max-sm:w-3/4 max-sm:mx-auto ">
+            <ul class="my-10px rounded-full items-center md:flex md:gap-[1.7rem] md:visible md:bg-black">
+                <li><a href="" class="md:hover:text-[#f97316]">Home</a></li>
+                <li><a href="" class="md:hover:text-[#f97316]">About</a></li>
+                <li><a href="" class="md:hover:text-[#f97316]">Contact</a></li>
+            </ul>
+        </div>
+    </section>
+    <br>
+    <hr class="color-orange-600 w-1/2 mx-auto">
+    <section id="bio" class="bio justify-between md:m-20 sm:20 sm:flex">
+        <div class="paragraph mx-20 my-10 leading-10 tracking-wide">
+            <h1 class="text-[2rem] font-[Ubuntu]">
+                <p>
+                    I'm
+                </p>
+                <span class="text-[#f97316]">Hareesh Dhruva</span>
+            </h1>
+            <p class="font-[Ubuntu] my-8">
+                Iam a undergraduate Student at Gayatri vidya parishad college of engineering in the stream of Computer science and engineering.
+                <br>
+                This is My portfolio Website
+            </p>
+            <div class="w-10 h-20 max-md:right-20 lg:right-5 relative ">
+                <ul class="social flex gap-[1rem] m-5">
+                    <li><a href="https://www.instagram.com/hareesh_dhruva" class="hover:text-[#f97316] text-3xl hover:text-6xl"><i class="fa-brands fa-instagram"></i></ion-icon></a></li>
+                    <li><a href="https://github.com/HareeshDhruva" class="hover:text-[#f97316] text-3xl hover:text-6xl"><i class="fa-brands fa-github"></i></a></li>
+                    <li><a href="mailto:hareeshdhruva123@gmail.com "class="hover:text-[#f97316] text-3xl hover:text-6xl"><i class="fa-solid fa-envelope"></i></a></li>
+                    <li><a href="https://www.facebook.com/hareesh.tony.5" class="hover:text-[#f97316] text-3xl hover:text-6xl"><i class="fa-brands fa-facebook"></i></a></li>
+                </ul>
+            </div>
+            <button class="btn bg-[#f97316] rounded-full hover:bg-[#fff] text-black p-1">
+                Download CV
+            </button>
+        </div>
+        <div class="picture flex justify-center items-center w-1/2 sm:m-20px shadow-md">
+            <img class="rounded-full hover:rounded" src="hareesh.png" alt="My Photo" srcset="">
+        </div>
+    </section>
+    <section>
+        <div>
+            
+        </div>
+    </section>
+    <section id="More" class=" more flex gap-[1rem] flex-col items-center justify-center text-[#f97316]">
+        <div class="text-3xl animate-bounce">
+            <i class="fa-solid fa-circle-chevron-down fa-beat"></i>
+        </div>
+        <div class="mb-20">
+            <p>
+                More
+            </p>
+        </div>
+    </section>
+    <section class="skill-set bg-[#f97316] text-center">
+        <p class="flex justify-center text-[100px] font-[] items-center pt-5">Skill</p>
+        <div class="flex justufy-center items-center max-md:gap-[2rem] max-md:w-[90%] max-md:mx-auto max-md:flex-col max-md:gap-[10rem]">
+            <div class="skill grid grid-cols-3 jutify-center items-center max-md:gap-[10rem] max-md:right-10 max-sm:right-20 relative">
+                <div class="pic-size cursor-pointer">
+                    <i class="fa-solid fa-laptop-code fa-2xl"></i>
+                    <p class="text-base relative max-md:left-5 top-3">
+                        Web
+                    </p>
+                </div>
+                <div class="pic-size">
+                    <i class="fa-brands fa-android fa-2xl"></i>
+                    <p class="text-base relative max-md:left-2 top-3">
+                        Android
+                    </p>
+                </div>
+                <div class="pic-size">
+                    <i class="fa-solid fa-camera fa-2xl"></i>
+                    <p class="text-base relative max-md:right-4 top-3">
+                        Photograohy
+                    </p>
+                </div>
+            </div>
+            <div class="code flex justify-center items-center flex-col pic-size">
+                <i class="fa-sharp fa-solid fa-code fa-2xl"></i>
+                <p class="text-base relative top-20">
+                    competitive programming
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+    </section>
+    <footer id="Copyright " class="flex justify-center lg:p-5 bg-[#000] text-[#f97316]">
+        <p  class="">
+            &copy; Copyright by hareesh dhruva 2023 
+        </p>
+    </footer>
+    <script src="index.js"></script>
+    <script src="https://kit.fontawesome.com/af35b67654.js" crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</body>
+</html>
